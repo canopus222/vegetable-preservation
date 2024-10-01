@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>使いかけ野菜保存の泉</h1>
+      <p>
+        ※冷蔵保存を想定しています。最後のまとめで詳しい保存方法を解説します
+      </p>
+    </header>
+    <div class="question">
+      <h3>使いかけ人参はラップでしっかり包んで保存する？</h3>
+
+      <!-- ADD YOUR OWN IMAGE HERE-->
+      <img
+        src="https://cdn.glitch.global/ab084784-c4a3-4722-80d0-0643af950a89/e5923a55-97b6-44fa-891c-2fc7a471b98f.image.png?v=1727735857149"
+        width="300"
+      />
+      
+      <!-- Each Yes or No Answer should either increment or decrement the points from the quiz. Change the function based on the answer. -->
+      <a href="q2.html" onclick="incToo();" class="yes-button">👍</a>
+      <a href="q2.html" onclick="decToo()" class="no-button">👎</a>
+    </div>
+   
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div
+      class="glitchButton"
+      style="position: fixed; top: 20px; right: 20px"
+    ></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>

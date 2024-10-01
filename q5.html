@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>使いかけ野菜保存の泉</h1>
+      <p>
+        ※冷蔵保存を想定しています。最後のまとめで詳しい保存方法を解説します
+      </p>
+    </header>
+    <div class="question">
+      <h3>使いかけキャベツは芯を取り除きラップでしっかり包み保存しますか？</h3>
+      <!-- ADD YOUR OWN IMAGE HERE-->
+      <img
+        src="https://cdn.glitch.global/ab084784-c4a3-4722-80d0-0643af950a89/8dca03ad-3e29-4c0b-85f1-a123cfd1ea6b.%E3%81%8D%E3%82%83%E3%81%B9%E3%81%A4.jpg?v=1727736838530"
+        height="300"
+      />
+
+      <!-- Each Yes or No Answer should either increment or decrement the points from the quiz. Change the function based on the answer. -->
+      <a href="q6.html" onclick="decToo();" class="yes-button">👍</a>
+      <a href="q6.html" onclick="incToo()" class="no-button">👎</a>
+    </div>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div
+      class="glitchButton"
+      style="position: fixed; top: 20px; right: 20px"
+    ></div>
+    <script src="https://button.glitch.me/button.js"></script>
+    <footer>
+      <button onclick="goBack()">⬅️ go back</button>
+    </footer>
+  </body>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</html>
