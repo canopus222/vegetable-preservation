@@ -1,5 +1,6 @@
 Quiz project
 =================
+野菜の保存方法についてクイズ形式で学ぶことのできるアプリです。
 
 This is a quiz about how to store partially used vegetables.
 
