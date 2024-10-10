@@ -39,7 +39,7 @@ https://vegetable-preservation.glitch.me
 
 
 ## 記事
-執筆中
+- 個人開発について簡単にまとめた記事https://qiita.com/wa-chan222/items/dd7a4fe6ef56d9f7228e
 
 ## 今後の展望
 - バックエンドを利用したユーザーごとの管理
