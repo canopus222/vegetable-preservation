@@ -1,3 +1,5 @@
+![喜びと野菜](https://cdn.glitch.global/ab084784-c4a3-4722-80d0-0643af950a89/dbd961c9-c81c-4b8a-a12b-620900a2550a.%E5%96%9C%E3%81%B3%E3%81%A8%E9%87%8E%E8%8F%9C.jpg?v=1727744546830)
+
 # サービスURL
 https://vegetable-preservation.glitch.me
 
@@ -37,8 +39,8 @@ https://vegetable-preservation.glitch.me
 
 
 ## 記事
+執筆中
 
-
-##　今後の展望
+## 今後の展望
 - バックエンドを利用したユーザーごとの管理
 - 具体的に野菜に限らず賞味期限消費期限を把握するサービスの開発
