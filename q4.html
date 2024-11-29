@@ -22,8 +22,8 @@
       />
 
       <!-- Each Yes or No Answer should either increment or decrement the points from the quiz. Change the function based on the answer. -->
-      <a href="q5.html" onclick="incToo();" class="yes-button">👍</a>
-      <a href="q5.html" onclick="decToo()" class="no-button">👎</a>
+      <a href="q5.html" onclick="incToo(); event.preventDefault();" class="yes-button">👍</a>
+      <a href="q5.html" onclick="decToo(); event.preventDefault();" class="no-button">👎</a>
     </div>
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
