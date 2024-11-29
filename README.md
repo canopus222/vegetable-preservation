@@ -1,34 +1,46 @@
-Quiz project
-=================
+![喜びと野菜](https://cdn.glitch.global/ab084784-c4a3-4722-80d0-0643af950a89/dbd961c9-c81c-4b8a-a12b-620900a2550a.%E5%96%9C%E3%81%B3%E3%81%A8%E9%87%8E%E8%8F%9C.jpg?v=1727744546830)
 
-This is a quiz about how to store partially used vegetables.
+# サービスURL
+https://vegetable-preservation.glitch.me
 
-HOW IT WORKS
-------------
-
-### ← README.md
-
-You are here.
-
-### ← index.html
-
-This is the homepage, including a description of the project and a start button.
-
-### ← q1.html – q6.html
-These are question pages. each one has a different question on it with a "👍" and a "👎" answer. 
-Each answer has a link to a new page with the next question on it. 
-Each question page after q1.html also has a back button.
-
-### ← yes.html, maybe.html, no.html
-These are answer pages. After you've answered enough questions, you'll end up at one of these pages.
+# サービス概要
+野菜の保存方法についてクイズ形式で学ぶことのできるサービスです。
 
 
-### ← script.js
+## サービスへの思い・作りたい理由
+使う人によっては、時には魔の巣窟になるうる冷蔵庫。
+賞味期限や消費期限が記載されている商品は適切に保存すればいいのですが、野菜は季節や状態によって保存方法が少し異なります。
+今回は冷蔵での保存を想定。かつ、使いかけという状態。
+適切に野菜を保存することで食品ロスをなくしたいと思いこのサービスを作りました。
 
-Here's the Javascript file! Modify this file to change how many points will be needed to score the quiz and direct folks to the right result pages (yes.html, no.html & maybe.html).
 
-### ← style.css
+## ターゲットユーザー
+- クイズ形式で使いかけ野菜の保存方法を学びたい人
+- 食品ロスに興味関心のある人
 
-Here's the css file! Add your own colors and fonts in there.
 
--------------------
+## ユーザー獲得方法
+- SNSでの情報発信
+- Qiita記事作成
+- RUNTEQスクール内での発信
+
+
+## 機能一覧
+- 設問に答えていくことで診断結果が変わる。
+- 「はい」と「いいえ」を視覚的に楽しいものとするため手のアイコンで表現
+
+
+## 使用技術
+| カテゴリー     | 使用技術                                                                            | 
+| -------------- | ----------------------------------------------------------------------------------- | 
+| フロントエンド | HTML (Hypertext Markup Language)<br>CSS (Cascading Style Sheets)<br>JavaScript (JS) | 
+| 開発環境       | Glitch（ホスティングと開発プラットフォーム）                                        | 
+| インフラ       | Glitch（サーバーを運営する環境）                                                    | 
+
+
+## 記事
+- 個人開発について簡単にまとめた記事https://qiita.com/wa-chan222/items/dd7a4fe6ef56d9f7228e
+
+## 今後の展望
+- バックエンドを利用したユーザーごとの管理
+- 具体的に野菜に限らず賞味期限消費期限を把握するサービスの開発
